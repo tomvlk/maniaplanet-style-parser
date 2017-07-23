@@ -1,6 +1,7 @@
 'use strict';
 
 function MPStyle(input, options) {
+	'use strict';
 	var TextBlock = function() {
 		var content = '';
 		var styles = {
@@ -103,7 +104,10 @@ function MPStyle(input, options) {
 							setStyle({isWide: true, isNarrow: false});
 						break;
 					case 'g':
-						setStyle({color: null});
+						var oldColor = null;
+						if (formatBlocks.length > 1)
+							oldColor = blocks[formatBlocks[formatBlocks.length - 2]].styles().color;
+						setStyle({color: oldColor});
 						break;
 					case 'z':
 						blocks.push(formatBlocks.length < 2 ? new TextBlock() : blocks[formatBlocks[formatBlocks.length - 2]].copy());
