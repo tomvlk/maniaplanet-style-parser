@@ -1,5 +1,5 @@
 
-declare module 'zocka-maniaplanet-formatter' {
+declare module '@tomvlk/ts-maniaplanet-formatter' {
   interface MPStyleOptions {
     /**
      * Render css-classes instead of explicit text-format styles

@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PRGfx/maniaplanet-style-parser.git"
+    "url": "https://github.com/tomvlk/maniaplanet-style-parser.git"
   },
   "keywords": [
     "maniaplanet",
@@ -22,9 +22,9 @@
   "author": "zocka",
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/PRGfx/maniaplanet-style-parser/issues"
+    "url": "https://github.com/tomvlk/maniaplanet-style-parser/issues"
   },
-  "homepage": "https://github.com/PRGfx/maniaplanet-style-parser#readme",
+  "homepage": "https://github.com/tomvlk/maniaplanet-style-parser#readme",
   "devDependencies": {
     "browserify": "^13.3.0",
     "chai": "^3.5.0",
