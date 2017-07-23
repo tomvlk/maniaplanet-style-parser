@@ -1,6 +1,6 @@
 {
   "name": "@tomvlk/ts-maniaplanet-formatter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "convert maniaplanet formatting styles to html",
   "main": "src/mp-style.js",
   "types": "src/mp-style.d.ts",
