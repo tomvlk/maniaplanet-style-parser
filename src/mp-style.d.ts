@@ -1,5 +1,7 @@
 
-declare module '@tomvlk/ts-maniaplanet-formatter' {
+export = MPFormatter;
+
+declare namespace MPFormatter {
   interface MPStyleOptions {
     /**
      * Render css-classes instead of explicit text-format styles
