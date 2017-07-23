@@ -1,4 +1,6 @@
-interface MPStyleOptions {
+
+declare module 'zocka-maniaplanet-formatter' {
+  interface MPStyleOptions {
     /**
      * Render css-classes instead of explicit text-format styles
      */
@@ -11,9 +13,10 @@ interface MPStyleOptions {
      * o, i, w etc. or 'color' to remove all colors
      */
     stripTags?: Array<string>;
-}
+  }
 
-/**
- * Translate maniaplanet- or TMF-formatted strings to HTML
- */
-declare function MPStyle(input: string, options?: MPStyleOptions): string;
+  /**
+   * Translate maniaplanet- or TMF-formatted strings to HTML
+   */
+  function MPStyle(input: string, options?: MPStyleOptions): string;
+}

@@ -1,4 +1,5 @@
 'use strict';
+
 function MPStyle(input, options) {
 	var TextBlock = function() {
 		var content = '';
@@ -243,4 +244,6 @@ function MPStyle(input, options) {
 	return render();
 }
 
-module.exports = MPStyle;
+module.exports = {
+	MPStyle: MPStyle,
+};
